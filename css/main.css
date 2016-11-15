@@ -213,6 +213,12 @@ textarea {
     src: url('../font/Montserrat-Black.otf');
     }
 
+    @font-face {
+    font-family: MontserratMedium;
+    src: url('../font/Montserrat-Medium.otf');
+    }
+    
+
     h1 {
         font-family: MontserratBlack;
         width: 100%;
@@ -225,26 +231,41 @@ textarea {
 
     /* Style adjustments for viewports that meet the condition */
     article {
+        padding-bottom: 50px;
         width: 100%;
         height: auto;
-        background-color: black;
+        background-color: #44d9e5;
     }
 
     article > h2 {
         width: 80%;
         height: 80px;
         text-align: center;
-        margin: 20px auto;
+        padding: 20px 0px;
+        margin: 0px auto;
         font-family: MontserratBlod;
         text-transform: uppercase;
         font-size: 1.8em;
+        color: white;
+    }
+
+    div#img2 {
+        width: 33%;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+    div#img2 > img {
+        width: 100%;
+        margin-left: -100%;
     }
 
     div#img3 {
         width: 33%;
         margin: 0 auto;
-        overflow: hidden;
         height: auto;
+        overflow: hidden;
     }
 
     div#img3 > img {
@@ -257,10 +278,50 @@ textarea {
         width: 33%;
     }
 
+    div#img4 {
+        width: 50%;
+        margin: -10% 0 0 40%;
+
+    }
+
+    #lettre {
+        width: 25%;
+        position: absolute;
+        z-index: 9;
+        margin-top : 5%;
+        margin-left: 10%;
+    }
+
+    #mairie {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        margin-top: -6%;
+        display: inline-block;
+    }
+
+    div#img5 {
+        width: 33%;
+        margin: 0 auto;
+        height: auto;
+        height: 600px;
+    }
+
+    div#img5 > img {
+        width: 33%;
+        position: absolute;
+    }
+
+
+
     article > p {
         width: 60%;
         margin: 0 auto;
         text-align: center;
+        color: white;
+        font-family: MontserratMedium;
+        font-size: 1.2em;
+
     }
 
     .number {
@@ -268,7 +329,7 @@ textarea {
         width: 36px;
         height: 36px;
         padding: 4px;
-        border: 5px solid black; 
+        border: 5px solid white; 
         text-align: center;
         display: inline-block;
     }
