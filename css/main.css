@@ -20,10 +20,7 @@ html {
 * @Import Font
 */
 
-@font-face {
-    font-family: Montserrat-Blod;
-    src: url(/font/Montserrat-Bold.otf);
-}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -201,16 +198,41 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
+
+    @font-face {
+    font-family: MontserratBlod;
+    src: url('../font/Montserrat-Bold.otf');
+    }
+
+    @font-face {
+    font-family: MontserratBlack;
+    src: url('../font/Montserrat-Black.otf');
+    }
+
+    h1 {
+        font-family: MontserratBlack;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 4em;
+    }
+
+
+
     /* Style adjustments for viewports that meet the condition */
     article {
         width: 100%;
+        height: 960px;
     }
 
-    article >h2 {
+    article > h2 {
         width: 80%;
-        margin: 0 auto;
-        font-family: Montserrat-Blod;
+        height: 36px;
         text-align: center;
+        margin: 0 auto;
+        font-family: MontserratBlod;
+        text-transform: uppercase;
+        font-size: 1.8em;
     }
 
     article > img {
@@ -222,6 +244,16 @@ textarea {
         width: 60%;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .number {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        padding: 4px;
+        border: 5px solid black; 
+        text-align: center;
+        display: inline-block;
     }
 }
 
