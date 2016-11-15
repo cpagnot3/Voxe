@@ -249,6 +249,16 @@ textarea {
         color: white;
     }
 
+    div#img1 {
+        width: 66%;
+        margin: 0 0 0 33%;
+    }
+
+    div#img1 > img {
+        width: 66%;
+        margin-left: -25%;
+    }
+
     div#img2 {
         width: 33%;
         margin: 0 auto;
@@ -320,7 +330,7 @@ textarea {
         text-align: center;
         color: white;
         font-family: MontserratMedium;
-        font-size: 1.2em;
+        font-size: 1.6em;
 
     }
 
