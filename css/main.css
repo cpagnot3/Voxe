@@ -203,6 +203,26 @@ textarea {
 
 @media only screen and (min-width: 35em) {
 
+    body {        
+        width: 100%;
+        background-color: #16A085;
+    }
+
+    #infographie {
+        width: 80%;
+        margin : 0 10% 0 10% ;
+    }
+
+    h1#logo {
+        background-color: #16A085;
+        margin: 0;
+    }
+
+    h1#logo > img { 
+        width: 50%;
+        margin : 0 auto;
+    }
+
     a {
         text-decoration: underline;
         color: white;
@@ -230,6 +250,7 @@ textarea {
         text-align: center;
         text-transform: uppercase;
         font-size: 4em;
+        color : white;
     }
 
 
@@ -368,6 +389,7 @@ textarea {
         font-size: 2em;
         margin: 0;
         padding: 20px 0px;
+        color : white;
     }
 
     footer > ul {   
@@ -384,6 +406,25 @@ textarea {
 }
 
 @media only screen and (max-width: 35em) {
+
+    body {        
+        width: 100%;
+        background-color: #16A085;
+    }
+
+    #infographie {
+        width: 100%;
+    }
+
+    h1#logo {
+        background-color: #16A085;
+        margin: 0;
+    }
+
+    h1#logo > img { 
+        width: 80%;
+        margin : 0 auto;
+    }
 
     a {
         text-decoration: underline;
@@ -412,6 +453,7 @@ textarea {
         text-align: center;
         text-transform: uppercase;
         font-size: 3.5em;
+        color: white;
     }
 
 
@@ -550,6 +592,7 @@ textarea {
         font-size: 2em;
         margin: 0;
         padding: 20px 0px;
+        color: white;
     }
 
     footer > ul {   
@@ -560,7 +603,7 @@ textarea {
     }
 
     footer > ul > li {
-        padding: 20px 30px 40px 0px;
+        padding: 20px 20px 40px 0px;
         display: inline-block;
     }
 }
