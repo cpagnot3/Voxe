@@ -8,25 +8,20 @@ var bulletin = TweenMax.staggerFromTo("#bulletin", 2, {"margin-top": "-2%"}, {"m
 // build scene
 var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
 				.setTween(carte)
-				.addIndicators({name: "staggering"}) // add indicators (requires plugin)
 				.addTo(controller);
 
 var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 400})
 				.setTween(facture)
-				.addIndicators({name: "staggering"}) // add indicators (requires plugin)
 				.addTo(controller);
 
 var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 400})
 				.setTween(cerfa)
-				.addIndicators({name: "staggering"}) // add indicators (requires plugin)
 				.addTo(controller);
 
 var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 400})
 				.setTween(lettre)
-				.addIndicators({name: "staggering"}) // add indicators (requires plugin)
 				.addTo(controller);
 
 var scene5 = new ScrollMagic.Scene({triggerElement: "#trigger5", duration: 400})
 				.setTween(bulletin)
-				.addIndicators({name: "staggering"}) // add indicators (requires plugin)
 				.addTo(controller);

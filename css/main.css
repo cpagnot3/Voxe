@@ -203,6 +203,11 @@ textarea {
 
 @media only screen and (min-width: 35em) {
 
+    a {
+        text-decoration: underline;
+        color: white;
+    }
+
     @font-face {
     font-family: MontserratBlod;
     src: url('../font/Montserrat-Bold.otf');
@@ -234,7 +239,12 @@ textarea {
         padding-bottom: 50px;
         width: 100%;
         height: auto;
-        background-color: #44d9e5;
+        background-color: #EE435A;
+    }
+
+    article:nth-child(2n)
+    {
+        background-color: #16A085;
     }
 
     article > h2 {
@@ -341,6 +351,216 @@ textarea {
         padding: 4px;
         border: 5px solid white; 
         text-align: center;
+        display: inline-block;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #EE435A; 
+    }
+
+    footer > h2 {
+        font-family: MontserratBlack;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin: 0;
+        padding: 20px 0px;
+    }
+
+    footer > ul {   
+        width: 80%;    
+        margin: 0 auto; 
+        list-style: none;
+        text-align: center;
+    }
+
+    footer > ul > li {
+        padding: 20px 50px 40px 0px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 35em) {
+
+    a {
+        text-decoration: underline;
+        color: white;
+    }
+
+    @font-face {
+    font-family: MontserratBlod;
+    src: url('../font/Montserrat-Bold.otf');
+    }
+
+    @font-face {
+    font-family: MontserratBlack;
+    src: url('../font/Montserrat-Black.otf');
+    }
+
+    @font-face {
+    font-family: MontserratMedium;
+    src: url('../font/Montserrat-Medium.otf');
+    }
+    
+
+    h1 {
+        font-family: MontserratBlack;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3.5em;
+    }
+
+
+
+    /* Style adjustments for viewports that meet the condition */
+    article {
+        padding-bottom: 50px;
+        width: 100%;
+        height: auto;
+        background-color: #EE435A;
+    }
+
+    article:nth-child(2n)
+    {
+        background-color: #16A085;
+    }
+
+    article > h2 {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        padding: 40px 0px;
+        margin: 0px auto;
+        font-family: MontserratBlod;
+        text-transform: uppercase;
+        font-size: 1.4em;
+        color: white;
+    }
+
+    div#img1 {
+        width: 66%;
+        margin: 0 0 0 33%;
+    }
+
+    div#img1 > img {
+        width: 66%;
+        margin: 20% 0 20% -25%;
+    }
+
+    div#img2 {
+        width: 33%;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+    div#img2 > img {
+        width: 100%;
+        margin: 20% 0 20% -100%;
+    }
+
+    div#img3 {
+        width: 33%;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+    div#img3 > img {
+        width: 100%;
+        margin-left: 100%;
+    }
+
+    article > img {
+        margin: 0 auto;
+        width: 33%;
+    }
+
+    div#img4 {
+        width: 50%;
+        margin: -10% 0 0 40%;
+
+    }
+
+    #lettre {
+        width: 25%;
+        position: absolute;
+        z-index: 9;
+        margin-top : 5%;
+        margin-left: 10%;
+    }
+
+    #mairie {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        margin-top: -6%;
+        display: inline-block;
+    }
+
+    div#img5 {
+        width: 33%;
+        margin: 0 auto;
+        height: auto;
+        height: 200px;
+    }
+
+    div#img5 > img {
+        width: 33%;
+        position: absolute;
+    }
+
+
+
+    article > p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-family: MontserratMedium;
+        font-size: 1em;
+
+    }
+
+    .number {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        border: 3px solid white; 
+        text-align: center;
+        display: inline-block;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #EE435A; 
+    }
+
+    footer > h2 {
+        font-family: MontserratBlack;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin: 0;
+        padding: 20px 0px;
+    }
+
+    footer > ul {   
+        width: 80%;    
+        margin: 0 auto; 
+        list-style: none;
+        text-align: center;
+    }
+
+    footer > ul > li {
+        padding: 20px 30px 40px 0px;
         display: inline-block;
     }
 }
