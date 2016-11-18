@@ -376,6 +376,7 @@ textarea {
     }
 
     footer {
+        padding-top: 80px;
         width: 100%;
         margin: 0 auto;
         background-color: #EE435A; 
@@ -402,6 +403,26 @@ textarea {
     footer > ul > li {
         padding: 20px 50px 40px 0px;
         display: inline-block;
+    }
+
+    a#subscribe {
+        font-family: MontserratBlack;
+        display: block;
+        width: 20%;
+        padding: 2%;
+        margin: 0% auto ;
+        margin-bottom: 80px;
+        text-align: center;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+
+    a#subscribe:hover {
+        background-color:#16A085;
     }
 }
 
@@ -579,6 +600,7 @@ textarea {
     }
 
     footer {
+        padding-top: 20%;
         width: 100%;
         margin: 0 auto;
         background-color: #EE435A; 
@@ -605,6 +627,26 @@ textarea {
     footer > ul > li {
         padding: 20px 20px 40px 0px;
         display: inline-block;
+    }
+
+    a#subscribe {
+        font-family: MontserratBlack;
+        display: block;
+        width: 50%;
+        padding: 2%;
+        margin: 0% auto ;
+        margin-bottom: 80px;
+        text-align: center;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+
+    a#subscribe:hover {
+        background-color:#16A085;
     }
 }
 
